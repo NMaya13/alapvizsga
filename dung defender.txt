@@ -1,0 +1,16 @@
+új üres lap <a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a> 
+
+<link rel="icon" href="iamge/xxxyyy.svg">
+
+<div class="col-md-3 col-sm-6">
+	<img class="img-fluid" src="images/varjuk.png">
+
+.osztály{
+	xyxy}
+class="osztály"
+
+#azonosító{
+	xyxyxy}
+id="azonosító"
+
+html tag vonal <hr>
