@@ -1,0 +1,7 @@
+class Nobel:
+    def init(self,sor):
+        adatok =sor.strip().split(";")
+        self.ev=int(adatok[0])
+        self.tipus=adatok[1]
+        self.knev=adatok[2]
+        self.vnev=float(adatok[3])

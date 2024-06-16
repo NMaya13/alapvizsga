@@ -1,0 +1,10 @@
+1, feladat
+import math
+import random
+p=int(input("kérem adja meg a medence átmérőjét! (cm)"))
+szinek=["zöld", "sárga", "piros", "fekete", "kék"]
+veletlen=random.choice(szinek)
+print(f"a medence {veletlen} színű")
+r=p/2
+takaro=r*r*math.pi
+print(f"a takarónak {takaro}cm2-nek kell lennie")

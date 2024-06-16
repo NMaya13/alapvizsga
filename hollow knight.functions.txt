@@ -1,0 +1,24 @@
+nobel:list[Nobel]=[]
+file=("nobel.csv","r")
+fejlec = file.readline()
+for sor in file:
+    nobel.append(Nobel(sor))
+file.close()
+
+#listahossz
+print(f"3.feladat: {len(nobel)}")
+#legdrágább
+legdrágább=0
+for i in nobel:
+    if  i.ev > legdrágább:
+        legdrágább= i.ev
+#szótár
+stadion={}
+for i in kosar:
+    if i.helyszin not in stadion:
+        stadion[i.helyszin]=1
+    else:
+        stadion[i.helyszin]+=1
+for i in stadion:
+    if stadion[i]>20:
+        print(f"\t{i}:{i,stadion[i]}")
